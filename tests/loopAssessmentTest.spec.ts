@@ -8,9 +8,12 @@ test.describe("Test cases to verify the status and tags of tickets for a logged 
     test(testCase.testCaseNumber, async({page}) => {
       await login(page);
       await selectProject(page,testCase.projectName);
+
+      /*Verification of the ticket existing in the correct column */
       const columnElements = await getSelectCardElements(page, testCase.columnName, testCase.ticketName)
       await expect(columnElements).toBeVisible() 
       
+      /*Verification of the tags names in the selected ticket */
       testCase.tagNames.forEach(tag => async() => {
         const tagElements = columnElements.filter({hasText: tag});
       await expect(tagElements).toBeVisible()
