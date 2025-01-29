@@ -1,0 +1,47 @@
+{
+    "tests": [
+        {
+            "testCaseNumber": "Test Case 1",
+            "projectName": "Web Application",
+            "columnName": "To Do",
+            "ticketName": "Implement user authentication",
+            "tagNames": ["Feature", "High Priority"]
+        },
+        
+        {
+            "testCaseNumber": "Test Case 2",
+            "projectName": "Web Application",
+            "columnName": "To Do",
+            "ticketName": "Fix navigation bug",
+            "tagNames": ["Bug"]
+        },
+        {
+            "testCaseNumber": "Test Case 3",
+            "projectName": "Web Application",
+            "columnName": "In Progress",
+            "ticketName": "Design system updates",
+            "tagNames": ["Design"]
+        },
+        {
+            "testCaseNumber": "Test Case 4",
+            "projectName": "Mobile Application",
+            "columnName": "To Do",
+            "ticketName": "Push notification system",
+            "tagNames": ["Feature"]
+        },
+        {
+            "testCaseNumber": "Test Case 5",
+            "projectName": "Mobile Application",
+            "columnName": "In Progress",
+            "ticketName": "Offline mode",
+            "tagNames": ["Feature", "High Priority"]
+        },
+        {
+            "testCaseNumber": "Test Case 6",
+            "projectName": "Mobile Application",
+            "columnName": "Done",
+            "ticketName": "App icon design",
+            "tagNames": ["Design"]
+        }
+    ]
+}
